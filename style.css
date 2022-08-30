@@ -1,0 +1,178 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: rgb(250, 246, 246);
+}
+
+.all {
+    height: 450px;
+    padding-top: 6px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px 25px 0 0;
+    background-color: rgb(80, 146, 146);
+}
+
+.headbar {
+    padding: 5px;
+    display: flex;
+    background-color: rgb(15, 63, 63);
+    justify-content: space-evenly;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 100px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    height: 190px;
+    padding-top: 0px;
+    padding-left: 9px;
+    padding-right: 16px;
+}
+.headcontent{
+    margin-right: 130px;
+}
+
+.headcontent h1 {
+    /* height: 120px; */
+    flex-wrap: wrap;
+    padding: 7px 0;
+    margin-bottom: 0px;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.headcontent p{
+    /* border: 1px s1olid; */
+    width: 80%;
+    padding: 0 7px;
+    word-wrap: break-word;
+    /* margin-left: 5%; */
+}
+
+.card {
+    background-color: beige;
+    width: 275px;
+    height: 310px;
+    margin: 18px 25px 18px 25px;
+    padding: 12px;
+    border-radius: 40px 40px 40px 40px;
+    /* flex-grow: 1; */
+}
+
+.card-image {
+    /* background-color: rgb(15, 63, 63); */
+    height: 105px;
+    border-radius: 38px 38px 0 0;
+    margin-bottom: 15px;
+}
+
+.card-image img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.card h1 {
+    padding: 12px 0 0 5px;
+}
+
+.card p {
+    padding: 5px;
+    padding-bottom: 9px;
+}
+
+
+.card a {
+    background-color: rgb(15, 63, 63);
+    padding: 4px;
+    display: block;
+    flex-wrap: nowrap;
+    color: white;
+    text-align: center;
+    margin: 18px 38px 18px 38px;
+    border-radius: 15px 15px 15px 15px;
+    font-size: 15px;
+}
+.card-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+@media (max) {
+    
+}
+@media (max-width: 576px){
+    .headbar{
+        display: none;
+    }
+    .head{
+        flex-wrap: wrap;
+        margin-bottom: 190px;
+    }
+    .headcontent h1{
+        padding-bottom: 2px;
+        font-size: 65px;
+    }
+    .headcontent p{
+        font-size: 20px;
+        margin: 1px;
+
+        /* border: 1px solid; */
+        width: 405px;
+    }
+    .headimage{
+        width: 100%;
+        /* border: 1px solid; */
+        text-align: center;
+    }
+    .headimage img{
+        width: 100%;
+        height: 100%;
+    }
+    .headcontent{
+        margin: 30px 0;
+        text-align: center ;
+    }
+    .card-container{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .card{
+        width: 79%;
+        height: 475px;
+    }
+    .card-image{
+        height: 190px;
+        width: auto;
+        margin: 12px 12px 0px 12px;
+    }
+    .card h1{
+        margin: 3px;
+        padding-top: 0px;
+        font-size: 39px;
+    }
+    .card p{
+        margin: 1px 1px 12px 3px;
+        font-size: 25px;
+    }
+    .card a{
+        margin: 16px;
+        padding: 9px 1px;
+        font-size: 26px;
+    }
+    .all{
+        height: auto;
+        margin: 288px 0 0 0;
+        padding-top: 28px;
+    }
+}
